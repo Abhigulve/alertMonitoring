@@ -1,4 +1,4 @@
-package org.example.model;
+package org.monitoring.model;
 
 import java.util.Map;
 

@@ -1,13 +1,6 @@
-package org.example.service;
+package org.monitoring.service;
 
-import org.example.model.AlertAlgoConfig;
-import org.example.model.DispatchType;
-import org.example.strategy.AlertingAlgoI;
-import org.example.strategy.SimpleCountImpl;
-import org.example.strategy.SlidingWindowImpl;
-
-import java.util.HashMap;
-import java.util.Map;
+import org.monitoring.model.DispatchType;
 
 public class DispatcherFactory {
 

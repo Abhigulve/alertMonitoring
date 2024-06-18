@@ -1,6 +1,6 @@
-package org.example.async;
+package org.monitoring.async;
 
-import org.example.model.Event;
+import org.monitoring.model.Event;
 
 public class AlertsPublisher implements Publisher {
     @Override

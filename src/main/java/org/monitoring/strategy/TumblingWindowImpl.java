@@ -1,12 +1,9 @@
-package org.example.strategy;
+package org.monitoring.strategy;
 
-import org.example.model.Event;
-import org.example.model.Window;
+import org.monitoring.model.Event;
+import org.monitoring.model.Window;
 
 import java.time.Duration;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.concurrent.TimeUnit;
 
 public class TumblingWindowImpl extends AlertingAlgoI {
     private final long windowSizeInMillis;

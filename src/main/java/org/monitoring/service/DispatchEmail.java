@@ -1,6 +1,6 @@
-package org.example.service;
+package org.monitoring.service;
 
-import org.example.model.Event;
+import org.monitoring.model.Event;
 
 public class DispatchEmail implements DispatchI{
     @Override

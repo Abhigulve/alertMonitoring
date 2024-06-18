@@ -1,6 +1,6 @@
-package org.example.strategy;
+package org.monitoring.strategy;
 
-import org.example.model.Event;
+import org.monitoring.model.Event;
 
 import java.util.HashMap;
 import java.util.Map;

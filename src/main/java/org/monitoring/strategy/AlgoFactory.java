@@ -1,7 +1,6 @@
-package org.example.strategy;
+package org.monitoring.strategy;
 
-import org.example.model.AlertAlgoConfig;
-import org.example.model.EventType;
+import org.monitoring.model.AlertAlgoConfig;
 
 import java.util.HashMap;
 import java.util.Map;

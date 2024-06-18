@@ -1,8 +1,7 @@
-package org.example.model;
+package org.monitoring.model;
 
 import com.google.gson.annotations.SerializedName;
 
-import java.security.spec.ECField;
 import java.util.List;
 
 public class AlertConfiguration {

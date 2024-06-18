@@ -1,13 +1,7 @@
-package org.example.strategy;
+package org.monitoring.strategy;
 
-import org.example.model.Event;
-
+import org.monitoring.model.Event;
 import java.time.Duration;
-import java.time.Instant;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.PriorityQueue;
-import java.util.concurrent.TimeUnit;
 
 public class SlidingWindowImpl extends AlertingAlgoI {
     private final long windowSizeInMillis;
@@ -32,6 +26,6 @@ public class SlidingWindowImpl extends AlertingAlgoI {
             this.count = 0;
         }
         this.count++;
-        return count>maxThreshold;
+        return count > maxThreshold;
     }
 }

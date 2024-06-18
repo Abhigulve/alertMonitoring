@@ -1,15 +1,12 @@
-package org.example.service;
+package org.monitoring.service;
 
-import org.example.model.AlertAlgoConfig;
-import org.example.model.DispatcherConfig;
-import org.example.model.Event;
-import org.example.model.EventType;
-import org.example.strategy.AlertingAlgoI;
-import org.example.strategy.AlgoFactory;
+import org.monitoring.model.AlertAlgoConfig;
+import org.monitoring.model.DispatcherConfig;
+import org.monitoring.model.Event;
+import org.monitoring.strategy.AlertingAlgoI;
+import org.monitoring.strategy.AlgoFactory;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class MonitoringService {
 

@@ -1,7 +1,6 @@
-package org.example.strategy;
+package org.monitoring.strategy;
 
-import org.example.model.Event;
-import org.example.model.EventType;
+import org.monitoring.model.Event;
 
 public abstract class AlertingAlgoI {
 

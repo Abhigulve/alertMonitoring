@@ -1,8 +1,7 @@
-package org.example.async;
+package org.monitoring.async;
 
 
-import org.example.model.Event;
-import org.example.model.EventType;
+import org.monitoring.model.Event;
 
 import java.util.ArrayList;
 import java.util.List;

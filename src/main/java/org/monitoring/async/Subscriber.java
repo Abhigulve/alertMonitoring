@@ -1,6 +1,6 @@
-package org.example.async;
+package org.monitoring.async;
 
-import org.example.model.Event;
+import org.monitoring.model.Event;
 
 public interface Subscriber {
     void update(Event event);

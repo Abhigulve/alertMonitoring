@@ -1,6 +1,4 @@
-package org.example.model;
-
-import java.sql.Timestamp;
+package org.monitoring.model;
 
 public class Event {
     long timestamp;

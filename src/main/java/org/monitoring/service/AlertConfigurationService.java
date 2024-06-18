@@ -1,12 +1,11 @@
-package org.example.service;
+package org.monitoring.service;
 
-import org.example.model.AlertAlgoConfig;
-import org.example.model.AlertConfiguration;
-import org.example.model.DispatcherConfig;
-import org.example.model.Event;
+import org.monitoring.model.AlertAlgoConfig;
+import org.monitoring.model.AlertConfiguration;
+import org.monitoring.model.DispatcherConfig;
+import org.monitoring.model.Event;
 
 import java.util.List;
-import java.util.Optional;
 
 public class AlertConfigurationService {
 

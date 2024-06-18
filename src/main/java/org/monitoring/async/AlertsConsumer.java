@@ -1,7 +1,7 @@
-package org.example.async;
+package org.monitoring.async;
 
-import org.example.model.Event;
-import org.example.service.MonitoringService;
+import org.monitoring.model.Event;
+import org.monitoring.service.MonitoringService;
 
 public class AlertsConsumer implements Subscriber {
     MonitoringService monitoringService;

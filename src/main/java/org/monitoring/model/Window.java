@@ -1,4 +1,4 @@
-package org.example.model;
+package org.monitoring.model;
 
 public class Window {
     private long startTime;
